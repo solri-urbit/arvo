@@ -142,262 +142,262 @@
     ^-  @uvH  ^-  @
     %+  snag  zar
     ^-  (list @uw)
-    :~  0wN.ymbEn.wyNdE.RFNRb.SnEQH   ::    0, ~zod, urbit.org
-        0w0                           ::    1, ~nec, Curtis Yarvin
-        0w0                           ::    2, ~bud, Tlon Investor 1
-        0w0                           ::    3, ~wes, Tlon Investor 2
-        0w0                           ::    4, ~sev, Tlon Investor 2
-        0wt.cKYxs.Yb5VZ.boSwm.l0yYc   ::    5, ~per, Tlon Investor 3  (oldkey)
-        0w0                           ::    6, ~sut, Tlon Investor 4
-        0w0                           ::    7, ~let, Tlon Investor 4
-        0w0                           ::    8, ~ful, Tlon Investor 4
-        0w0                           ::    9, ~pen, Tlon Investor 4
-        0w0                           ::   10, ~syt, Tlon Investor 4
-        0w0                           ::   11, ~dur, Tlon Investor 4
-        0w0                           ::   12, ~wep, Sam Putman
-        0w0                           ::   13, ~ser, Tlon Investor 5
-        0w3j.H0sty.jHa3F.JlD26.4LPwV  ::   14, ~wyl, Zimran Ahmed (oldkey)
-        0w3F.QdvV-.toAsR.hvUNk.fHjW6  ::   15, ~sun, Colin Smith  (oldkey)
-        0w0                           ::   16, ~ryp, Tlon Investor 6
-        0w0                           ::   17, ~syx, Tlon Investor 6
-        0w0                           ::   18, ~dyr, Tlon Investor 6
-        0w0                           ::   19, ~nup, Tlon Investor 6
-        0w0                           ::   20, ~heb, Tlon Investor 6
-        0w0                           ::   21, ~peg, Tlon Investor 6
-        0w0                           ::   22, ~lup, Tlon Investor 6
-        0w0                           ::   23, ~dep, Tlon Investor 6
-        0w0                           ::   24, ~dys, Mike Gogulski
-        0w0                           ::   25, ~put, Tlon Investor 7
-        0w0                           ::   26, ~lug, Tlon Investor 8
-        0w0                           ::   27, ~hec, Tlon Investor 8
-        0w0                           ::   28, ~ryt, Tlon Investor 8
-        0w0                           ::   29, ~tyv, Tlon Investor 8
-        0w0                           ::   30, ~syd, Curtis Yarvin
-        0wp.BgRGJ.kslnv.PLAqb.TRKbr   ::   31, ~nex, Prakhar Goel (oldkey)
-        0w0                           ::   32, ~lun, Tlon Investor 9
-        0w0                           ::   33, ~mep, Tlon Investor 9
-        0w0                           ::   34, ~lut, Tlon Investor 9
-        0w0                           ::   35, ~sep, Tlon Investor 9
-        0w0                           ::   36, ~pes, Curtis Yarvin
-        0w10.5s1K0.dv9NT.02fPe.PyDYa  ::   37, ~del, Kingdon Barrett
-        0w1w.KF-J1.5I63F.khFyv.h0n4J  ::   38, ~sul, John Burnham (oldkey)
-        0w1A.OcPXS.oQi8K.g-E0d.zTRph  ::   39, ~ped, Jeremy Wall
-        0w2.Mr2Id.SX8xI.MAs-j.5Y-1W   ::   40, ~tem, Tlon Investor 10 (oldkey)
-        0w0                           ::   41, ~led, Nick Caruso
-        0w0                           ::   42, ~tul, Curtis Yarvin
-        0w0                           ::   43, ~met, Curtis Yarvin
-        0w0                           ::   44, ~wen, Curtis Yarvin
-        0w0                           ::   45, ~byn, Curtis Yarvin 
-        0w0                           ::   46, ~hex, James Torre
-        0w0                           ::   47, ~feb, urbit.org
-        0wK.GoKEY.rMjfn.ZcvFQ.n4BmX   ::   48, ~pyl, Michael Hartl (oldkey)
-        0w0                           ::   49, ~dul, Curtis Yarvin
-        0w0                           ::   50, ~het, Curtis Yarvin
-        0w0                           ::   51, ~mev, Curtis Yarvin
-        0w0                           ::   52, ~rut, Curtis Yarvin
-        0w2L.M6-o5.DDTFL.R4sFL.7Zuay  ::   53, ~tyl, Tlon Investor 11 (oldkey)
-        0w0                           ::   54, ~wyd, Curtis Yarvin
-        0w0                           ::   55, ~tep, Curtis Yarvin
-        0w0                           ::   56, ~bes, Curtis Yarvin
-        0w0                           ::   57, ~dex, Jared Hance 
-        0w0                           ::   58, ~sef, Owen Rescher
-        0w0                           ::   59, ~wyc, Galen Wolfe-Pauly
-        0w0                           ::   60, ~bur, Galen Wolfe-Pauly
-        0w0                           ::   61, ~der, Galen Wolfe-Pauly
-        0w0                           ::   62, ~nep, Galen Wolfe-Pauly
-        0w0                           ::   63, ~pur, Curtis Yarvin
-        0w30.VtXvV.S~xIV.iMCL~.j9zTC  ::   64, ~rys, Charlie Cummings (oldkey)
-        0w0                           ::   65, ~reb, Curtis Yarvin
-        0wp.LslIa.IFSM9.mIp-z.KBIBh   ::   66, ~den, Michael Hartl (oldkey)
-        0w0                           ::   67, ~nut, Curtis Yarvin
-        0w0                           ::   68, ~sub, Curtis Yarvin
-        0w0                           ::   69, ~pet, Curtis Yarvin
-        0w0                           ::   70, ~rul, Curtis Yarvin
-        0w0                           ::   71, ~syn, Henry Ault
-        0w0                           ::   72, ~reg, Henry Ault
-        0w0                           ::   73, ~tyd, Henry Ault
-        0w0                           ::   74, ~sup, Henry Ault
-        0w0                           ::   75, ~sem, Michael Livshin
-        0w0                           ::   76, ~wyn, Anton Dyudin
-        0w0                           ::   77, ~rec, urbit.org
-        0w0                           ::   78, ~meg, Tlon
-        0w2L.tavpW.Lk4R-.elm7E.4KEqZ  ::   79, ~net, Anthony Martinez (oldkey)
-        0w0                           ::   80, ~sec, Curtis Yarvin
-        0w0                           ::   81, ~mul, Curtis Yarvin
-        0w1F.Tqroo.wyq2m.cBaTM.9MbG-  ::   82, ~nym, Max Greer (oldkey)
-        0w0                           ::   83, ~tev, Curtis Yarvin
-        0w2x.~ldho.Oo7kE.QqNSx.XteFh  ::   84, ~web, Ar Vicco (oldkey)
-        0w0                           ::   85, ~sum, Philip Monk
-        0w0                           ::   86, ~mut, Philip Monk
-        0w0                           ::   87, ~nyx, Philip Monk
-        0w30.UUr19.iBPlD.wfyJD.2CWPv  ::   88, ~rex, Tlon Investor 12 (oldkey)
-        0w0                           ::   89, ~teb, Michael Vassar
-        0w0                           ::   90, ~fus, Tlon Corporation
-        0w0                           ::   91, ~hep, urbit.org
-        0w0                           ::   92, ~ben, urbit.org
-        0w0                           ::   93, ~mus, urbit.org
-        0w0                           ::   94, ~wyx, urbit.org
-        0w0                           ::   95, ~sym, urbit.org
-        0w0                           ::   96, ~sel, urbit.org
-        0w0                           ::   97, ~ruc, urbit.org
-        0w0                           ::   98, ~dec, urbit.org
-        0w1L.NQ-5f.ABF9R.kVwVJ.zRfn2  ::   99, ~wex, Pax Dickinson (oldkey)
-        0w0                           ::  100, ~syr, urbit.org
-        0w0                           ::  101, ~wet, urbit.org
-        0w0                           ::  102, ~dyl, urbit.org
-        0w0                           ::  103, ~myn, urbit.org
-        0w0                           ::  104, ~mes, urbit.org
-        0w0                           ::  105, ~det, urbit.org
-        0w0                           ::  106, ~bet, urbit.org
-        0w0                           ::  107, ~bel, urbit.org
-        0w0                           ::  108, ~tux, Tlon Investor 13
-        0w1D.JV9n0.9z~YK.yAWyi.c9~Lu  ::  109, ~tug, Philip Monk (oldkey)
-        0w0                           ::  110, ~myr, urbit.org
-        0w0                           ::  111, ~pel, urbit.org
-        0w0                           ::  112, ~syp, urbit.org
-        0w0                           ::  113, ~ter, urbit.org
-        0w0                           ::  114, ~meb, urbit.org
-        0w0                           ::  115, ~set, urbit.org
-        0w0                           ::  116, ~dut, urbit.org
-        0w0                           ::  117, ~deg, urbit.org
-        0w0                           ::  118, ~tex, urbit.org
-        0w0                           ::  119, ~sur, urbit.org
-        0w0                           ::  120, ~fel, urbit.org
-        0w0                           ::  121, ~tud, urbit.org
-        0w0                           ::  122, ~nux, urbit.org
-        0w0                           ::  123, ~rux, urbit.org
-        0w0                           ::  124, ~ren, urbit.org
-        0w0                           ::  125, ~wyt, urbit.org
-        0w0                           ::  126, ~nub, urbit.org
-        0w0                           ::  127, ~med, urbit.org
-        0w20.GGLXx.aqxaQ.w4Iob.wdmmr  ::  128, ~lyt, Arthur Breitman (oldkey)
-        0w0                           ::  129, ~dus, urbit.org
-        0w0                           ::  130, ~neb, urbit.org
-        0w0                           ::  131, ~rum, urbit.org
-        0w0                           ::  132, ~tyn, urbit.org
-        0w0                           ::  133, ~seg, urbit.org
-        0w0                           ::  134, ~lyx, urbit.org
-        0w0                           ::  135, ~pun, Anton Dyudin
-        0w0                           ::  136, ~res, urbit.org
-        0w0                           ::  137, ~red, Alex Kravets
-        0w3J.15iJA.0pbNk.mZXyh.A~uKb  ::  138, ~fun, Aaron Beckerman (oldkey)
-        0w0                           ::  139, ~rev, urbit.org
-        0w3m.Cqumo.ZC7-e.794A4.Bqhh8  ::  140, ~ref, Matt Brubeck (oldkey)
-        0w0                           ::  141, ~mec, urbit.org
-        0w0                           ::  142, ~ted, urbit.org
-        0w2d.GLlYg.-MwtO.ZCPBE.OqGB9  ::  143, ~rus, Stephen Burnham (oldkey)
-        0w0                           ::  144, ~bex, urbit.org
-        0w0                           ::  145, ~leb, Justin LeBlanc
-        0w0                           ::  146, ~dux, urbit.org
-        0w0                           ::  147, ~ryn, urbit.org
-        0w0                           ::  148, ~num, Tlon
-        0w0                           ::  149, ~pyx, Katherine McFall
-        0w2g.gLmg4.MtrHQ.A5VmH.WPk6G  ::  150, ~ryg, Dan Haffey (oldkey)
-        0w0                           ::  151, ~ryx, Tlon
-        0w0                           ::  152, ~fep, Tlon
-        0w2j.T1u2s.BfXjV.ldOGR.aiZrQ  ::  153, ~tyr, Steve Dee (oldkey)
-        0w0                           ::  154, ~tus, Tlon
-        0w0                           ::  155, ~tyc, Tlon
-        0w0                           ::  156, ~leg, Tlon
-        0w0                           ::  157, ~nem, Tlon
-        0w0                           ::  158, ~fer, Tlon
-        0w0                           ::  159, ~mer, Tlon
-        0w1E.bDeR7.cuQmt.Uc5CS.OSyMx  ::  160, ~ten, Tlon
-        0w0                           ::  161, ~lus, Tlon
-        0w0                           ::  162, ~nus, Tlon
-        0w0                           ::  163, ~syl, Tlon
-        0w0                           ::  164, ~tec, Tlon
-        0w0                           ::  165, ~mex, Tlon
-        0w24.TfzCX.qmRm9.ukapQ.It6tG  ::  166, ~pub, Tlon
-        0w0                           ::  167, ~rym, Tlon
-        0w0                           ::  168, ~tuc, Tlon
-        0w0                           ::  169, ~fyl, Tlon
-        0w0                           ::  170, ~lep, Tlon
-        0w0                           ::  171, ~deb, Tlon
-        0w0                           ::  172, ~ber, Tlon
-        0w0                           ::  173, ~mug, Tlon
-        0w0                           ::  174, ~hut, Tlon
-        0w0                           ::  175, ~tun, Tlon
-        0w0                           ::  176, ~byl, Tlon
-        0wq.wmRvk.V8tZ5.1lz5q.dbrYx   ::  177, ~sud, Tlon
-        0w3Q.0LYXy.LjTEu.~FjaT.OpTts  ::  178, ~pem, Tlon
-        0wQ.uJzGo.M94yL.L7yw6.nGyfW   ::  179, ~dev, Tlon
-        0w1B.LTLDt.3Yu~s.BuzYM.fjcS3  ::  180, ~lur, Tlon
-        0w2B.9j6g-.q9DwV.tXzPz.DKEKq  ::  181, ~def, Tlon
-        0w1m.CxbiW.SKF5E.11JQ6.yW~T4  ::  182, ~bus, Tlon
-        0w0                           ::  183, ~bep, Tlon
-        0w0                           ::  184, ~run, Tlon
-        0w0                           ::  185, ~mel, Tlon
-        0w0                           ::  186, ~pex, Tlon
-        0w0                           ::  187, ~dyt, Tlon
-        0w0                           ::  188, ~byt, Tlon
-        0w0                           ::  189, ~typ, Anton Dyudin
-        0w0                           ::  190, ~lev, Tlon
-        0w0                           ::  191, ~myl, Tlon
-        0w0                           ::  192, ~wed, Tlon
-        0w0                           ::  193, ~duc, Tlon
-        0w0                           ::  194, ~fur, Tlon
-        0w0                           ::  195, ~fex, Tlon
-        0w0                           ::  196, ~nul, Tlon
-        0w0                           ::  197, ~luc, Tlon
-        0w0                           ::  198, ~len, Tlon
-        0w0                           ::  199, ~ner, Tlon
-        0wv.aixe9.7gG2w.7cJiy.i3Mg8   ::  200, ~lex, Michael Hartl (oldkey)
-        0w0                           ::  201, ~rup, Owen Rescher
-        0w0                           ::  202, ~ned, Tlon
-        0w0                           ::  203, ~lec, Tlon
-        0w0                           ::  204, ~ryd, Tlon
-        0w1U.n361n.FC3jj.9cX26.V1Wif  ::  205, ~lyd, Adam Bliss (oldkey)
-        0w0                           ::  206, ~fen, Tlon
-        0w0                           ::  207, ~wel, Tlon
-        0w0                           ::  208, ~nyd, Tlon
-        0w0                           ::  209, ~hus, Tlon
-        0w0                           ::  210, ~rel, Tlon
-        0w0                           ::  211, ~rud, Tlon
-        0w0                           ::  212, ~nes, Tlon
-        0w16.~8NZV.VyMmf.4toMO.pui1R  ::  213, ~hes, Tlon Investor 14 (oldkey)
-        0w0                           ::  214, ~fet, Tlon
-        0w0                           ::  215, ~des, Tlon
-        0w0                           ::  216, ~ret, Tlon
-        0w0                           ::  217, ~dun, Tlon
-        0w0                           ::  218, ~ler, Tlon
-        0w10.w0AUz.QVdks.HCNvf.ja~TO  ::  219, ~nyr, Ivan Matosevic (oldkey)
-        0w0                           ::  220, ~seb, Tlon
-        0w0                           ::  221, ~hul, Tlon
-        0w0                           ::  222, ~ryl, Tlon
-        0w0                           ::  223, ~lud, Tlon
-        0w0                           ::  224, ~rem, Tlon
-        0w0                           ::  225, ~lys, Tlon
-        0w3C.YXlEl.pFbYV.9pYWI.d7cla  ::  226, ~fyn, Stephen Burnham (oldkey)
-        0w0                           ::  227, ~wer, Tlon
-        0w0                           ::  228, ~ryc, Tlon
-        0w0                           ::  229, ~sug, Tlon
-        0w0                           ::  230, ~nys, Tlon
-        0w0                           ::  231, ~nyl, Tlon
-        0w0                           ::  232, ~lyn, Tlon
-        0w0                           ::  233, ~dyn, Tlon
-        0w0                           ::  234, ~dem, Tlon
-        0w0                           ::  235, ~lux, Tlon Investor 15
-        0w1O.Jq9xt.YFg7U.qg13U.WFNGJ  ::  236, ~fed, Iceman
-        0w0                           ::  237, ~sed, Tlon
-        0w0                           ::  238, ~bec, Tlon
-        0w0                           ::  239, ~mun, Tlon
-        0w0                           ::  240, ~lyr, Tlon
-        0w0                           ::  241, ~tes, Tlon
-        0w0                           ::  242, ~mud, Ian Rowan
-        0w4.yybWD.F1BgE.ynzlF.47neH   ::  243, ~nyt, Byrne Hobart (oldkey)
-        0w0                           ::  244, ~byr, Tlon
-        0w0                           ::  245, ~sen, Tlon
-        0w0                           ::  246, ~weg, Tlon
-        0w28.bRVMq.Oi3tM.zOCNV.j00Yq  ::  247, ~fyr, Anton Dyudin (oldkey)
-        0w0                           ::  248, ~mur, Tlon
-        0w0                           ::  249, ~tel, Tlon
-        0w3w.V54nF.e9eNv.1fLkl.PiUo-  ::  250, ~rep, Raymond Pasco
-        0w0                           ::  251, ~teg, Tlon
-        0w0                           ::  252, ~pec, Tlon
-        0w0                           ::  253, ~nel, Tlon
-        0w0                           ::  254, ~nev, Tlon
-        0wY.a0HAU.7Lbkf.6V514.OsJBv   ::  255, ~fes, John Burnham (oldkey)
+    :~  0w32.fDSZy.0ZCHX.49suL.i4eOC  ::    0, ~zod
+        0w0                           ::    1, ~nec
+        0w0                           ::    2, ~bud
+        0w0                           ::    3, ~wes
+        0w0                           ::    4, ~sev
+        0w0                           ::    5, ~per
+        0w0                           ::    6, ~sut
+        0w0                           ::    7, ~let
+        0w0                           ::    8, ~ful
+        0w0                           ::    9, ~pen
+        0w0                           ::   10, ~syt
+        0w0                           ::   11, ~dur
+        0w0                           ::   12, ~wep
+        0w0                           ::   13, ~ser
+        0w0                           ::   14, ~wyl
+        0w0                           ::   15, ~sun
+        0w0                           ::   16, ~ryp
+        0w0                           ::   17, ~syx
+        0w0                           ::   18, ~dyr
+        0w0                           ::   19, ~nup
+        0w0                           ::   20, ~heb
+        0w0                           ::   21, ~peg
+        0w0                           ::   22, ~lup
+        0w0                           ::   23, ~dep
+        0w0                           ::   24, ~dys
+        0w0                           ::   25, ~put
+        0w0                           ::   26, ~lug
+        0w0                           ::   27, ~hec
+        0w0                           ::   28, ~ryt
+        0w0                           ::   29, ~tyv
+        0w0                           ::   30, ~syd
+        0w0                           ::   31, ~nex
+        0w0                           ::   32, ~lun
+        0w0                           ::   33, ~mep
+        0w0                           ::   34, ~lut
+        0w0                           ::   35, ~sep
+        0w0                           ::   36, ~pes
+        0w0                           ::   37, ~del
+        0w0                           ::   38, ~sul
+        0w0                           ::   39, ~ped
+        0w0                           ::   40, ~tem
+        0w0                           ::   41, ~led
+        0w0                           ::   42, ~tul
+        0w0                           ::   43, ~met
+        0w0                           ::   44, ~wen
+        0w0                           ::   45, ~byn
+        0w0                           ::   46, ~hex
+        0w0                           ::   47, ~feb
+        0w0                           ::   48, ~pyl
+        0w0                           ::   49, ~dul
+        0w0                           ::   50, ~het
+        0w0                           ::   51, ~mev
+        0w0                           ::   52, ~rut
+        0w0                           ::   53, ~tyl
+        0w0                           ::   54, ~wyd
+        0w0                           ::   55, ~tep
+        0w0                           ::   56, ~bes
+        0w0                           ::   57, ~dex
+        0w0                           ::   58, ~sef
+        0w0                           ::   59, ~wyc
+        0w0                           ::   60, ~bur
+        0w0                           ::   61, ~der
+        0w0                           ::   62, ~nep
+        0w0                           ::   63, ~pur
+        0w0                           ::   64, ~rys
+        0w0                           ::   65, ~reb
+        0w0                           ::   66, ~den
+        0w0                           ::   67, ~nut
+        0w0                           ::   68, ~sub
+        0w0                           ::   69, ~pet
+        0w0                           ::   70, ~rul
+        0w0                           ::   71, ~syn
+        0w0                           ::   72, ~reg
+        0w0                           ::   73, ~tyd
+        0w0                           ::   74, ~sup
+        0w0                           ::   75, ~sem
+        0w0                           ::   76, ~wyn
+        0w0                           ::   77, ~rec
+        0w0                           ::   78, ~meg
+        0w0                           ::   79, ~net
+        0w0                           ::   80, ~sec
+        0w0                           ::   81, ~mul
+        0w0                           ::   82, ~nym
+        0w0                           ::   83, ~tev
+        0w0                           ::   84, ~web
+        0w0                           ::   85, ~sum
+        0w0                           ::   86, ~mut
+        0w0                           ::   87, ~nyx
+        0w0                           ::   88, ~rex
+        0w0                           ::   89, ~teb
+        0w0                           ::   90, ~fus
+        0w0                           ::   91, ~hep
+        0w0                           ::   92, ~ben
+        0w0                           ::   93, ~mus
+        0w0                           ::   94, ~wyx
+        0w0                           ::   95, ~sym
+        0w0                           ::   96, ~sel
+        0w0                           ::   97, ~ruc
+        0w0                           ::   98, ~dec
+        0w0                           ::   99, ~wex
+        0w0                           ::  100, ~syr
+        0w0                           ::  101, ~wet
+        0w0                           ::  102, ~dyl
+        0w0                           ::  103, ~myn
+        0w0                           ::  104, ~mes
+        0w0                           ::  105, ~det
+        0w0                           ::  106, ~bet
+        0w0                           ::  107, ~bel
+        0w0                           ::  108, ~tux
+        0w0                           ::  109, ~tug
+        0w0                           ::  110, ~myr
+        0w0                           ::  111, ~pel
+        0w0                           ::  112, ~syp
+        0w0                           ::  113, ~ter
+        0w0                           ::  114, ~meb
+        0w0                           ::  115, ~set
+        0w0                           ::  116, ~dut
+        0w0                           ::  117, ~deg
+        0w0                           ::  118, ~tex
+        0w0                           ::  119, ~sur
+        0w0                           ::  120, ~fel
+        0w0                           ::  121, ~tud
+        0w0                           ::  122, ~nux
+        0w0                           ::  123, ~rux
+        0w0                           ::  124, ~ren
+        0w0                           ::  125, ~wyt
+        0w0                           ::  126, ~nub
+        0w0                           ::  127, ~med
+        0w0                           ::  128, ~lyt
+        0w0                           ::  129, ~dus
+        0w0                           ::  130, ~neb
+        0w0                           ::  131, ~rum
+        0w0                           ::  132, ~tyn
+        0w0                           ::  133, ~seg
+        0w0                           ::  134, ~lyx
+        0w0                           ::  135, ~pun
+        0w0                           ::  136, ~res
+        0w0                           ::  137, ~red
+        0w0                           ::  138, ~fun
+        0w0                           ::  139, ~rev
+        0w0                           ::  140, ~ref
+        0w0                           ::  141, ~mec
+        0w0                           ::  142, ~ted
+        0w0                           ::  143, ~rus
+        0w0                           ::  144, ~bex
+        0w0                           ::  145, ~leb
+        0w0                           ::  146, ~dux
+        0w0                           ::  147, ~ryn
+        0w0                           ::  148, ~num
+        0w0                           ::  149, ~pyx
+        0w0                           ::  150, ~ryg
+        0w0                           ::  151, ~ryx
+        0w0                           ::  152, ~fep
+        0w0                           ::  153, ~tyr
+        0w0                           ::  154, ~tus
+        0w0                           ::  155, ~tyc
+        0w0                           ::  156, ~leg
+        0w0                           ::  157, ~nem
+        0w0                           ::  158, ~fer
+        0w0                           ::  159, ~mer
+        0w0                           ::  160, ~ten
+        0w0                           ::  161, ~lus
+        0w0                           ::  162, ~nus
+        0w0                           ::  163, ~syl
+        0w0                           ::  164, ~tec
+        0w0                           ::  165, ~mex
+        0w0                           ::  166, ~pub
+        0w0                           ::  167, ~rym
+        0w0                           ::  168, ~tuc
+        0w0                           ::  169, ~fyl
+        0w0                           ::  170, ~lep
+        0w0                           ::  171, ~deb
+        0w0                           ::  172, ~ber
+        0w0                           ::  173, ~mug
+        0w0                           ::  174, ~hut
+        0w0                           ::  175, ~tun
+        0w0                           ::  176, ~byl
+        0w0                           ::  177, ~sud
+        0w0                           ::  178, ~pem
+        0w0                           ::  179, ~dev
+        0w0                           ::  180, ~lur
+        0w0                           ::  181, ~def
+        0w0                           ::  182, ~bus
+        0w0                           ::  183, ~bep
+        0w0                           ::  184, ~run
+        0w0                           ::  185, ~mel
+        0w0                           ::  186, ~pex
+        0w0                           ::  187, ~dyt
+        0w0                           ::  188, ~byt
+        0w0                           ::  189, ~typ
+        0w0                           ::  190, ~lev
+        0w0                           ::  191, ~myl
+        0w0                           ::  192, ~wed
+        0w0                           ::  193, ~duc
+        0w0                           ::  194, ~fur
+        0w0                           ::  195, ~fex
+        0w0                           ::  196, ~nul
+        0w0                           ::  197, ~luc
+        0w0                           ::  198, ~len
+        0w0                           ::  199, ~ner
+        0w0                           ::  200, ~lex
+        0w0                           ::  201, ~rup
+        0w0                           ::  202, ~ned
+        0w0                           ::  203, ~lec
+        0w0                           ::  204, ~ryd
+        0w0                           ::  205, ~lyd
+        0w0                           ::  206, ~fen
+        0w0                           ::  207, ~wel
+        0w0                           ::  208, ~nyd
+        0w0                           ::  209, ~hus
+        0w0                           ::  210, ~rel
+        0w0                           ::  211, ~rud
+        0w0                           ::  212, ~nes
+        0w0                           ::  213, ~hes
+        0w0                           ::  214, ~fet
+        0w0                           ::  215, ~des
+        0w0                           ::  216, ~ret
+        0w0                           ::  217, ~dun
+        0w0                           ::  218, ~ler
+        0w0                           ::  219, ~nyr
+        0w0                           ::  220, ~seb
+        0w0                           ::  221, ~hul
+        0w0                           ::  222, ~ryl
+        0w0                           ::  223, ~lud
+        0w0                           ::  224, ~rem
+        0w0                           ::  225, ~lys
+        0w0                           ::  226, ~fyn
+        0w0                           ::  227, ~wer
+        0w0                           ::  228, ~ryc
+        0w0                           ::  229, ~sug
+        0w0                           ::  230, ~nys
+        0w0                           ::  231, ~nyl
+        0w0                           ::  232, ~lyn
+        0w0                           ::  233, ~dyn
+        0w0                           ::  234, ~dem
+        0w0                           ::  235, ~lux
+        0w0                           ::  236, ~fed
+        0w0                           ::  237, ~sed
+        0w0                           ::  238, ~bec
+        0w0                           ::  239, ~mun
+        0w0                           ::  240, ~lyr
+        0w0                           ::  241, ~tes
+        0w0                           ::  242, ~mud
+        0w0                           ::  243, ~nyt
+        0w0                           ::  244, ~byr
+        0w0                           ::  245, ~sen
+        0w0                           ::  246, ~weg
+        0w0                           ::  247, ~fyr
+        0w0                           ::  248, ~mur
+        0w0                           ::  249, ~tel
+        0w0                           ::  250, ~rep
+        0w0                           ::  251, ~teg
+        0w0                           ::  252, ~pec
+        0w0                           ::  253, ~nel
+        0w0                           ::  254, ~nev
+        0w0                           ::  255, ~fes
     ==
   --
   ::::::::::::::::::::::::::::::::::::::::::::::::::::::::
