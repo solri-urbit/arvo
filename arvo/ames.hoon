@@ -377,7 +377,7 @@
         0w0                           ::  232, ~lyn
         0w0                           ::  233, ~dyn
         0w0                           ::  234, ~dem
-        0w0                           ::  235, ~lux
+        0w2X.X-KYL.xqKZi.wTx22.JkhK3  ::  235, ~lux
         0w0                           ::  236, ~fed
         0w0                           ::  237, ~sed
         0w0                           ::  238, ~bec
