@@ -188,7 +188,7 @@
         0w0                           ::   43, ~met
         0w0                           ::   44, ~wen
         0w0                           ::   45, ~byn
-        0w3Z.C4vy6.e5tDh.5420e.D0Msq  ::   46, ~hex
+        0w0                           ::   46, ~hex
         0w0                           ::   47, ~feb
         0w0                           ::   48, ~pyl
         0w0                           ::   49, ~dul
