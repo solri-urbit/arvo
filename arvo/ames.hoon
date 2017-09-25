@@ -180,7 +180,7 @@
         0w0                           ::   35, ~sep
         0w0                           ::   36, ~pes
         0w0                           ::   37, ~del
-        0w0                           ::   38, ~sul
+        0w3J.-cUq3.jo-L7.4SGxL.l6W4b  ::   38, ~sul
         0w0                           ::   39, ~ped
         0w0                           ::   40, ~tem
         0w0                           ::   41, ~led
