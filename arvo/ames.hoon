@@ -146,7 +146,7 @@
         0w0                           ::    1, ~nec
         0w0                           ::    2, ~bud
         0w0                           ::    3, ~wes
-        0w3L.JHyQJ.8g3vB.Fr~5K.iXWpG  ::    4, ~sev
+        0w3L.JHyQJ.8g3vB.Fr~5K.iXWpG  ::     4, ~sev
         0w0                           ::    5, ~per
         0w0                           ::    6, ~sut
         0w0                           ::    7, ~let
@@ -157,7 +157,7 @@
         0w0                           ::   12, ~wep
         0w0                           ::   13, ~ser
         0w0                           ::   14, ~wyl
-        0w2g.T8lmF.OeCBc.t1dOZ.x7RnI  ::   15, ~sun
+        0w2g.T8lmF.OeCBc.t1dOZ.x7RnI  ::    15, ~sun
         0w0                           ::   16, ~ryp
         0w0                           ::   17, ~syx
         0w0                           ::   18, ~dyr
@@ -166,7 +166,7 @@
         0w0                           ::   21, ~peg
         0w0                           ::   22, ~lup
         0w0                           ::   23, ~dep
-        0w1f.dFadt.mH28L.tZRTz.W65OB  ::   24, ~dys
+        0w1f.dFadt.mH28L.tZRTz.W65OB  ::    24, ~dys
         0w0                           ::   25, ~put
         0w0                           ::   26, ~lug
         0w0                           ::   27, ~hec
@@ -175,7 +175,7 @@
         0w0                           ::   30, ~syd
         0w0                           ::   31, ~nex
         0w0                           ::   32, ~lun
-        0wp.SLJ-w.6Os8J.mA7-m.BWwqe   ::   33, ~mep
+        0wp.SLJ-w.6Os8J.mA7-m.BWwqe   ::    33, ~mep
         0w0                           ::   34, ~lut
         0w0                           ::   35, ~sep
         0w0                           ::   36, ~pes
@@ -188,7 +188,7 @@
         0w0                           ::   43, ~met
         0w0                           ::   44, ~wen
         0w0                           ::   45, ~byn
-        0w1K.wRq5a.thFBW.n6b4a.qtmOw  ::   46, ~hex
+        0w1K.wRq5a.thFBW.n6b4a.qtmOw  ::    46, ~hex
         0w0                           ::   47, ~feb
         0w0                           ::   48, ~pyl
         0w0                           ::   49, ~dul
