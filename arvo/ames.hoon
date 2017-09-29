@@ -1,4 +1,4 @@
-!:  ::  ames (4a), networking  
+!:  ::  ames (4a), networking
 ::
   |=  pit/vase
   =>  =~
@@ -1675,7 +1675,7 @@
         ?:  ?=($e ven)
           ?+  cak  !!                 ::  XX  fix eyre
             $pr  :_  [%sick %waft p.bon r.bon]
-                 [[`path`t.t.t.q.q.bon] hen] 
+                 [[`path`t.t.t.q.q.bon] hen]
             $pc  :_  [%sick %wart p.bon cak `path`t.t.t.q.q.bon r.bon]
                  [[%e `path`t.t.t.q.q.bon] hen]
           ==
@@ -1717,7 +1717,7 @@
       :_  fox  [hen %pass pax i.q.q.bon %west p.bon t.q.q.bon r.bon]~
     ::
         $ouzo
-      ::  ~&  [%send now p.bon `@p`(mug (shaf %flap q.bon))] 
+      ::  ~&  [%send now p.bon `@p`(mug (shaf %flap q.bon))]
       :_  fox
       [[gad.fox [%give %send p.bon q.bon]] ~]
     ::
@@ -1784,7 +1784,7 @@
     ?:  ?=($wegh -.kyz)
       ~&  %ames-weighing
       [[hen %give %mass wegh]~ +>]
-    =+  ^=  fuy  
+    =+  ^=  fuy
         ^-  {p/(list boon) q/fort}
         ?-    -.kyz
             $barn
