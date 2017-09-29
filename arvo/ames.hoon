@@ -149,7 +149,7 @@
         0w3L.JHyQJ.8g3vB.Fr~5K.iXWpG  ::    4, ~sev
         0w0                           ::    5, ~per
         0w0                           ::    6, ~sut
-        0w0                           ::    7, ~let
+        0w2r.CCqAa.~qYAr.dYN0T.21gkN  ::    7, ~let
         0w0                           ::    8, ~ful
         0w0                           ::    9, ~pen
         0w0                           ::   10, ~syt
