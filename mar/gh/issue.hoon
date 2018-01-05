@@ -1,5 +1,7 @@
 /-  gh
-/+  gh-parse
+/+  gh-parse, old-zuse
+=,  mimes:html
+=,  old-zuse
 |_  issue/issue:gh
 ++  grab
   |%
@@ -8,7 +10,7 @@
 ++  grow
   |%
   ++  json  raw.issue
-  ++  mime  [/txt/plain (taco (crip <issue>))]
+  ++  mime  [/txt/plain (as-octs (crip <issue>))]
   ++  txt   (print-issue:gh-parse issue)
   --
 --

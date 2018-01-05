@@ -4,10 +4,12 @@
   ::
 /?    310
 /-  sole
+/+  old-zuse
+=,  old-zuse
 [. sole]
 ::
 ::::
-  !:
+  ::
 :-  %ask
 |=  $:  {now/@da eny/@uvJ bec/beak}
         $~

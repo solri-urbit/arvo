@@ -1,9 +1,9 @@
 ::  Describe available comands: +help, +help %tree, +help %hood
-::  
+::
 ::::  /hoon/help/gen
   ::
 /?    310
-!:
+::
 ::::
   ::
 |%
@@ -23,9 +23,9 @@
   :-  ?-  b
         $~  "/"  :: XX !! maybe?
         {$hood ^}  "|{(path-heps t.b)}"
-        ^          "+{(path-heps b)}"  :: XX deal with :talk|foo
+        ^          "+{(path-heps b)}"  :: XX deal with :hall|foo
       ==
-  =/  c  (lore a)
+  =/  c  (to-wain:format a)
   ?~  c  "~"
   ?.  =('::  ' (end 3 4 i.c))
     "<undocumented>"
@@ -35,9 +35,9 @@
   |=  {len/@u pax/path}
   |=  {nam/@t ark/arch}  ^-  (unit {@t path})
   ?.  (~(has by dir.ark) %hoon)  ~
-  %+  bind  (file (welp pax /[nam]/hoon))
+  %+  bind  (file:space:userlib (welp pax /[nam]/hoon))
   |=  a/*  ^-  {cord path}
-  [;;(@t a) (welp (slag len pax) /[nam])]  
+  [;;(@t a) (welp (slag len pax) /[nam])]
 --
 ::
 :-  %say
@@ -52,7 +52,7 @@
   =/  red  ((read-at len (scag len pax)) p.typ ark) :: XX ugly
   (drop (bind red rend))
 |-  ^-  tang
-=+  =<  arl=(~(tap by (~(urn by dir.ark) .)))
+=+  =<  arl=~(tap by (~(urn by dir.ark) .))
     |=({a/@t $~} .^(arch cy+(welp pax /[a])))
 %+  welp
   =/  dir/(list {@ path})

@@ -3,10 +3,12 @@
 ::::  /hoon/twit/app
   ::
 /-    plan-acct
-/+    twitter, talk
+/+    twitter, hall
 ::
 ::::  ~fyr
   ::
+=,  eyre
+=,  html
 |%
 ++  twit-path                                           ::  valid peer path
   $%  {$cred $~}                                        ::  credential info
@@ -27,7 +29,7 @@
   $%  {$quit $~}                                         ::  terminate
       {$diff gilt}                                      ::  send data
   ==
-++  gilt  
+++  gilt
   $%  {$twit-feed p/(list stat)}                        ::  posts in feed
       {$twit-post p/stat}                               ::  tweet accepted
       {$ares term (list tank)}                          ::  error
@@ -37,7 +39,7 @@
 ++  move  {bone card}
 ++  card                                                ::  arvo request
   $?  gift
-  $%  {$hiss wire (unit iden) api-call}                 ::  api request
+  $%  {$hiss wire (unit user:eyre) api-call}            ::  api request
       {$poke wire app-message}                          ::
       {$wait wire p/@da}                                ::  timeout
   ==  ==
@@ -45,8 +47,8 @@
 ++  api-call  {response-mark $twit-req {endpoint quay}} :: full hiss payload
 ++  response-mark  ?($twit-post $twit-feed $twit-cred)  :: sigh options
 ++  app-message
-  $?  {{ship $talk} $talk-command command:talk}         ::  chat message
-      {{ship $hood} $write-plan-account iden plan-acct} :: registration
+  $?  {{ship $hall} $hall-action action:hall}           ::  chat message
+      {{ship $hood} $write-plan-account user:eyre plan-acct} :: registration
   ==                                                    ::
 ++  sign                                                ::  arvo response
   $%  {$e $thou p/httr}                                 ::  HTTP result
@@ -59,19 +61,15 @@
 ++  endpoint  endpoint:reqs:twitter                     ::  outgoing target
 ++  param  param:reqs:twitter                           ::  twit-req paramters
 ++  print  print:twitter                                ::  their serialization
-++  parse  parse:twitter                                ::  and deserialization
 ::
-:: ++  twit  args:reqs:twitter                             ::  arugment types
-:: ++  twir  parse:twitter                                 ::  reparsers
-:: ++  twip  print:twitter                                 ::  printers
 --
-!:
+::
 ::::
   ::
-|_  {bowl axle}
+|_  {bowl:gall axle}
 ::
 ++  prep
-  |=  a/(unit axle)  ^-  (quip move +>)
+  |=  a/(unit axle)  ^-  (quip move _+>)
   ?^  a  [~ +>(+<+ u.a)]
   (peer-scry-x /cred)
 ::
@@ -99,7 +97,7 @@
   |=  {pax/path mof/(list move)}  ^+  done
   =^  tym  ran  (dely pax)
   :_  +>.$
-  ?~  tym  
+  ?~  tym
     :: ~&  no-wait/ran
     mof
   :: ~&  will-wait/u.tym
@@ -107,13 +105,13 @@
   mof
 ::
 ++  poke-twit-do                                        ::  recieve request
-  |=  {usr/iden act/command}  ^+  done
+  |=  {usr/user:eyre act/command}  ^+  done
   ?-    -.act
       $post
     =.  out  (~(put by out) p.act %& usr q.act)
     %+  wait-new  /peer/home/[usr]
     =+  req=[%twit-req `endpoint`update+[%status q.act]~ ~]
-    [ost %hiss post+(dray ~[%uv] p.act) `usr %twit-post req]~
+    [ost %hiss post+(dray:wired ~[%uv] p.act) `usr %twit-post req]~
   ==
 ::
 ++  wake-peer
@@ -123,10 +121,10 @@
   ?.  (~(has by ran) peer+pax)                           ::  ignore if retracted
     ~
   =+  =>  |=({a/bone @ b/path} [b a])
-      pus=(~(gas ju *(jug path bone)) (turn (~(tap by sup)) .))
+      pus=(~(gas ju *(jug path bone)) (turn ~(tap by sup) .))
   ?~  (~(get ju pus) pax)
     ~
-  ~&  peer-again+[pax ran]  
+  ~&  peer-again+[pax ran]
   (pear | `~. pax) ::(user-from-path pax))
 ::
 ++  sigh-recoverable-error                              ::  Rate-limit
@@ -147,7 +145,7 @@
 ::
 ++  sigh-twit-post-post                                ::  status acknowledged
   |=  {wir/wire rep/stat}  ^+  done
-  =+  (raid wir mez=%uv ~)
+  =+  (raid:wired wir mez=%uv ~)
   =.  out  (~(put by out) mez %| rep)
   :_  +>.$
   =+  pax=/[who.rep]/status/(rsh 3 2 (scot %ui id.rep))
@@ -174,7 +172,7 @@
   ~&  sigh-tang+pax
   %-  (slog (flop tan))
   =+  ^-  git/gift
-      =+  err='' ::%.(q:(need r.hit) ;~(biff poja mean:twir))  :: XX parse?
+      =+  err='' ::%.(q:(need r.hit) ;~(biff de-json mean:reparse:twitter))  :: XX parse?
       :^  %diff  %ares  %bad-http
       tan
       :: [leaf/"HTTP Code {<p.hit>}" (turn (need err) mean:render:twit)]
@@ -193,12 +191,14 @@
 ::   [`(slav %ta i.pax) t.pax]
 ::
 ::
-++  compat  |=({usr/(unit iden) req/(unit iden)} ?~(req & =(usr req)))
+++  compat
+  |=  {usr/(unit user:eyre) req/(unit user:eyre)}
+  ?~(req & =(usr req))
 ::
 ::  .^(twit-feed %gx /=twit=/~/home/urbit_test)
 ::  .^(twit-stat %gx /=twit=/~./post/0vv0old.0post.hash0.0000)
 ++  peek
-  |=  {ren/care pax/path}  ^-  (unit (unit gilt))
+  |=  {ren/care:clay pax/path}  ^-  (unit (unit gilt))
   ?>  ?=($x ren)  ::  others unsupported
   =+  usr=`~.  ::   =^  usr  pax  (user-from-path pax)
   ?.  ?=(twit-path pax)
@@ -223,11 +223,11 @@
   =+  hiz=(pear-hiss pax)
   ?~  hiz  ~                          :: already in flight
   ::?>  (compat usr -.u.hiz)                  ::  XX better auth
-  [ost %hiss scry+pax usr +.u.hiz]~  
+  [ost %hiss scry+pax usr +.u.hiz]~
 ::
 ++  peer  |=(pax/path :_(+> (pear & `~. pax)))       ::  accept subscription
 ++  pear                              ::  poll, possibly returning current data
-  |=  {ver/? usr/(unit iden) pax/path}
+  |=  {ver/? usr/(unit user:eyre) pax/path}
   ^-  (list move)
   ?.  ?=(twit-path pax)
     ~|([%missed-path pax] !!)
@@ -251,7 +251,7 @@
   |=  pax/twit-path  ^-  $%({$none $~} {$part p/gilt} {$full p/gilt})
   ?-    -.pax
       $post
-    =+  (raid +.pax mez=%uv ~)
+    =+  (raid:wired +.pax mez=%uv ~)
     =+  sta=(~(get by out) mez)
     ?.  ?=({$~ $| *} sta)
       [%none ~]
@@ -268,7 +268,7 @@
   ==
 ::
 ++  pear-hiss
-  |=  pax/twit-path  ^-  (unit {(unit iden) api-call})
+  |=  pax/twit-path  ^-  (unit {(unit user:eyre) api-call})
   ?-    -.pax
       $post  ~                        :: future/unacked
       $cred
@@ -289,7 +289,7 @@
   |=  a/knot  ^-  sd:param
   ~|  [%not-user a]
   %+  rash  a
-  ;~(pose (stag %user-id dem) (stag %screen-name user:parse))
+  ;~(pose (stag %user-id dem) (stag %screen-name user:parse:twitter))
 ::
 :: ++  pull                                                ::  release subscription
 ::   |=  ost/bone
@@ -310,10 +310,10 @@
 ++  spam                                                ::  send by path
   |=  {a/path b/(list gift)}  ^-  (list move)
   %-  zing  ^-  (list (list move))
-  %+  turn  (~(tap by sup))
+  %+  turn  ~(tap by sup)
   |=  {ost/bone @ pax/path}
   ?.  =(pax a)  ~
   (turn b |=(c/gift [ost c]))
 ::
-++  show-url  ~(said-url talk `bowl`+<-)
+++  show-url  ~(said-url hall `bowl:gall`+<-)
 --

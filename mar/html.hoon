@@ -5,12 +5,13 @@
   ::
 ::::  compute
   ::
+=,  html
 |_  htm/@t
 ::
 ++  grow                                                ::  convert to
   |%                                                    ::
   ++  mime  [/text/html (met 3 htm) htm]                ::  to %mime
-  ++  hymn  (need (poxa htm))                           ::  to %hymn
+  ++  hymn  (need (de-xml htm))                         ::  to %hymn
   --                                                    ::
 ++  grab  |%                                            ::  convert from
           ++  noun  @t                                  ::  clam from %noun

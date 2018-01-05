@@ -2,12 +2,13 @@
 ::::  /hoon/hoon/mar
   ::
 /?    310
-!:
+::
+=,  eyre
 |_  own/@t
 ::
 ++  grow                                                ::  convert to
   |%
-  ++  mime  `^mime`[/text/x-hoon (taco own)]            ::  convert to %mime
+  ++  mime  `^mime`[/text/x-hoon (as-octs:mimes:html own)] ::  convert to %mime
   ++  elem                                              ::  convert to %html
     ;div:pre(urb_codemirror "", mode "hoon"):"{(trip own)}"
     :: =+  gen-id="src-{<`@ui`(mug own)>}"
@@ -37,13 +38,13 @@
       ==
     ==
   ++  txt
-    (lore own)
+    (to-wain:format own)
   --
 ++  grab
   |%                                            ::  convert from
   ++  mime  |=({p/mite q/octs} q.q)
   ++  noun  @t                                  ::  clam from %noun
-  ++  txt   role
+  ++  txt   of-wain:format
   --
 ++  grad  %txt
 --

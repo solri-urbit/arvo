@@ -1,11 +1,12 @@
 ::  Converts the result of an 'issues' event into a issues:gh.
 /-  gh
-/+  gh-parse, talk
+/+  gh-parse, hall, old-zuse
+=,  old-zuse
 |_  issues/issues:gh
 ++  grow
   |%
-  ++  talk-speeches
-    ^-  (list speech:talk)
+  ++  hall-speeches
+    ^-  (list speech:hall)
     :_  ~
     =+  ^=  txt
         ?-    -.action.issues
@@ -77,12 +78,12 @@
               title.issue.issues
           ==
         ==
-    ^-  speech:talk
+    ^-  speech:hall
     :*  %api  %github
         login.sender.issues
-        (rash html-url.sender.issues aurf:epur)
+        (rash html-url.sender.issues aurf:urlp)
         txt  txt
-        (rash html-url.issue.issues aurf:epur)
+        (rash html-url.issue.issues aurf:urlp)
         %-  jobe
         %+  welp
           :~  repository+s+name.repository.issues

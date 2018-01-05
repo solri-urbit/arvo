@@ -3,9 +3,11 @@
 ::::  /hoon/save/hood/gen
   ::
 /?    310
+/+  old-zuse
+=,  old-zuse
 ::
 ::::
-  !:
+  ::
 :-  %say
 |=  $:  {now/@da eny/@uvJ byk/beak}
         {{dap/term $~} $~}

@@ -4,11 +4,13 @@
 /?    310
 /-    tree-include
 /+    tree
-/=    gas    /$    fuel
+/=    gas    /$    fuel:html
 /=    dat    /^    tree-include    /tree-include/
 /=    kid    /^    (map knot tree-include)
              /_    /tree-include/
-!:
+=,  format
+=,  mimes:html
+::
 ::::
   ::
 |%
@@ -44,18 +46,18 @@
   |=  a/$%({$t p/cord} {$r p/json} {$j p/json} {$m mime})
   ?-  -.a
     $t  [%s p.a]
-    $m  (jobe mite+[%s (moon p.a)] octs+(jape (sifo q.q.a)) ~)
+    $m  (pairs:enjs mite+[%s (en-mite p.a)] octs+(tape:enjs (en-base64 q.q.a)) ~)
     $r  p.a
     $j  p.a
   ==
 ++  from-queries
   |=  {bem/beam quy/(list query)}
-  =<  (jobe (turn quy .))
+  =<  (pairs:enjs (turn quy .))
   |=  a/query
   :-  -.a
   ?-  -.a
     $name  (from-type +.a ?^(s.bem i.s.bem q.bem))
-    $beak  (from-type +.a (crip (spud (tope bem(s /)))))
+    $beak  (from-type +.a (crip (spud (en-beam bem(s /)))))
     $path  (from-type +.a (crip (spud (flop s.bem))))
     $spur  (from-type +.a (crip (spud s.bem)))
     $bump  (from-type +.a bump.dat)
@@ -73,10 +75,10 @@
            ^^$(quy p.a, s.bem [dir s.bem], dat dak, kid ~)
   ==
 --
-!:
+::
 ::::
   ::
-[tree .]
+=,  tree
 ^-  json
 =+  default='spur.t_body.r_comt.j_plan.j_beak.t_meta.j_kids_meta.j_head.r_bump.t'
 =+  ^=  schem

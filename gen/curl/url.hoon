@@ -2,10 +2,12 @@
 ::
 ::::  /hoon/url/curl/gen
   ::
-/?  310
+/?    310
+/+  old-zuse
+=,  old-zuse
 ::
 :::::
-  !:
+  ::
 :-  %say
 |=  {^ {arg/tape $~} $~}
-purl+(scan arg auri:epur)
+purl+(scan arg auri:urlp)

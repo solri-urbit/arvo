@@ -8,7 +8,7 @@
 ++  command                                           ::  poke action
   $%  {$post p/@uvI q/cord}                           ::  post a tweet
   ==
-++  sur-twit  .  :: XX 
+++  sur-twit  .  :: XX
 ::
 ++  reqs
   |%
@@ -63,9 +63,9 @@
   ++  endpoint  (normalize (fork-clams (heads doc-data)))
   ++  heads  |*(a/(pole) ?~(a a [-<.a (heads +.a)]))
   ++  fork-clams
-    |*  a/{_{term *} (pole _{term *})}  ::  ^-  _{term *}
-    ?~  +.a  -.a
-    ?(-.a (fork-clams +.a))
+    |*  a/(pair _{term *} (pole _{term *}))  ::  ^-  _{term *}
+    ?~  q.a  p.a
+    ?(p.a (fork-clams q.a))
   ::
   ++  normalize  ::  XX smarter pretty-printing
     |*  a/_{@ *}  :: ^+  a
@@ -74,13 +74,14 @@
     (a b)
   ::
   ++  doc-data-dry    ::  staticly typed for endpoint lookup
-    ^-  (list {typ/_{term (list param)} met/?($get $post) pax/path}):param
+    =,  param
+    ^-  (list {typ/_{term (list param)} met/?($get $post) pax/path})
     doc-data
   ::
   ++  doc-data    :: scraped from api docs, used to create types and requests
     ::  ^-  (pole {_{term _(pole *param)} ?($get $post) path})
     =>  param
-    :~  
+    :~
       [  {$mentions $~}                %get   /statuses/mentions-timeline  ]
       [  {$posts-by sd $~}             %get   /statuses/user-timeline  ]
       [  {$timeline $~}                %get   /statuses/home-timeline  ]

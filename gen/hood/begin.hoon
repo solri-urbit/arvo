@@ -4,18 +4,20 @@
   ::
 /?    310
 /-  sole
+/+  old-zuse
+=,  old-zuse
 ::
 ::::
-  !:
+  ::
 =>  |%
     ++  begs  {his/@p tic/@p yen/@t ges/gens}
     ++  scug  |*({a/@ b/(pole)} ?~(b ~ ?~(a ~ [-.b $(b +.b, a (dec a))])))
     --
-[sole .]
+=,  sole
 :-  %ask
 |=  $:  {now/@da eny/@uvJ bec/beak}
         {arg/_(scug *@ *{his/@p tic/@p $~})}
-        safety/?($on $off)
+        safety/?($off $on)
     ==
 ^-  (sole-result (cask begs))
 ?.  =(safety %off)
@@ -32,7 +34,7 @@
   [%& %helm-ticket "your ticket: ~"]
 %+  sole-go  fed:ag
 |=  tic/@p
-%+  sole-lo  
+%+  sole-lo
   [%& %helm-entropy "some entropy: "]
 %+  sole-go  (boss 256 (more gon qit))
 |=  yen/@t

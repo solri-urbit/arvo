@@ -3,7 +3,8 @@
   ::
 /?    310
 /+    elem-to-react-json, time-to-id
-!:
+=,  format
+::
 ::::
   ::
 |_  all/(list (pair time {ship marl}))
@@ -16,7 +17,8 @@
       (sort all |=({a/* b/*} (lor b a)))
     |=  {a/time b/ship c/marl}  ^-  ^json
     =+  bod=[[%div id+(time-to-id a) ~] c]
-    (jobe time+(jode a) user+(jape +:<b>) body+(elem-to-react-json bod) ~)
+    =,  enjs
+    (pairs time+(time a) user+(ship b) body+(elem-to-react-json bod) ~)
   --
 ++  grab  |%                                            ::  convert from
           ++  noun  (list {time manx})                  ::  clam from %noun

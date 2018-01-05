@@ -1,9 +1,9 @@
 ::  Tree view recursive directory contents
-::  
+::
 ::::  /hoon/tree/gen
   ::
 /?    310
-!:
+::
 ::::
   ::
 :-  %say
@@ -17,6 +17,6 @@
     [(rend pax) -]
 %-  zing
 %+  turn
-  (sort (~(tap by dir.ark)) aor)
-|=  {a/@t $~} 
+  (sort ~(tap by dir.ark) aor)
+|=  {a/@t $~}
 ^$(pax (welp pax /[a]))

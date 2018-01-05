@@ -3,20 +3,22 @@
   ::
 /?    310
 ::
+=,  mimes:html
+=,  format
 |_  mud/@t
 ++  grow
   |%
-  ++  mime  [/text/x-markdown (taco mud)]
+  ++  mime  [/text/x-markdown (as-octs mud)]
   ++  md  mud
   ++  txt
-    (lore mud)
+    (to-wain mud)
   --
 ++  grab
   |%
   ++  mime  |=({p/mite q/octs} q.q)
   ++  noun  @t
   ++  md  |=(@t +<)
-  ++  txt  role
+  ++  txt  of-wain
   --
 ++  grad  %txt
 --

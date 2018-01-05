@@ -3,21 +3,23 @@
 ::::  /hoon/merge/hood/gen
   ::
 /?    310
-!:
+/+  *old-zuse
+=,  old-zuse
+::
 |%
 ++  beaky  {knot knot knot $~}
 ++  sorc  ?({bek/beaky $~} {her/@p sud/@tas $~})
 --
 ::
 ::::
-  !:
+  ::
 :-  %say
 |=  $:  {now/@da eny/@uvJ bek/beak}
-        {arg/{?(sorc {syd/$@(desk beaky) sorc})} cas/case gem/?($auto germ)}
+        {arg/{?(sorc {syd/$@(desk beaky) sorc})} cas/case gem/?(germ $auto)}
     ==
 =*  our  p.bek
 |^  :-  %kiln-merge
-    ^-  {syd/desk her/ship sud/desk cas/case gem/?($auto germ)}
+    ^-  {syd/desk her/ship sud/desk cas/case gem/?(germ $auto)}
     ?-  arg
       {@ @ $~}
         =+(arg [sud ?.(=(our her) her (sein her)) sud (opt-case da+now) gem])

@@ -3,55 +3,34 @@
 ::::  /hoon/rss-xml/ren
   ::
 /?    310
-/=  our  /$  |=({bem/beam *} p.bem)
-/=  top
-  /.  /=  pax  /$  |=({bem/beam *} (slag (lent /web) (flop s.bem)))
-      /=  inf  /%  /&front&/|(/front/ /~[~])
-  ==
-/=  kid  /^  :(map knot knot cord)
-         /%  /_  /front/
-!:
+/=  sum  /&snip&elem&/|(/elem/ /~[;div;])
+/=  kid  /^  (map knot {marl marl})
+         /_  /&snip&/elem/
+/$    |=({bem/beam *} [our=p.bem tub=(slag 1 (flop s.bem))])
+::
 ::::  ~fyr, ~tasfyn-partyv
   ::
-|%
-++  relative-link
-  =/  external-host
-    ~+(.^(hart %e /(scot %p our)/host/real))
-  |=  a/path  ^-  tape
-  (earn external-host `(weld pax.top a) ~)
+::~&  [sum=sum kid=kid]
+::  Link from relative path
+=,  eyre
+=,  html
+=+  hok=.^(hart %e /(scot %p our)/host/real)
+=+  ref=|=(a/path (en-purl hok `(weld tub a) ~))
+::  urb:front attrs confuse RSS validators, readers
+=+  no-meta=|=(a/marl ^+(a ?~(a ~ ?.(?=($meta n.g.i.a) a $(a t.a)))))
 ::
-++  parse-front
-  |=  a/(map cord cord)
-  :*  title=(fall (~(get by a) %title) '')
-      preview=(fall (~(get by a) %preview) '')
-      author=(fall (~(get by a) %author) '')
-      date=(fall (~(get by a) %date) '')
-  ==
---
-::
-::::
-  ::
-%-  crip  %-  poxo
+%-  crip  %-  en-xml
 ;rss(version "2.0")
   ;channel
-    ;*  =/  a  (parse-front inf.top)
-        ;=
-          ;title: {(trip title.a)}
-          ;link: {(relative-link /)}
-          ;description: {(trip preview.a)}
-        ==
-    ;*  %+  turn  (~(tap by kid))
-        |=  {fyl/@t inf/(map knot cord)}
-        =/  a  (parse-front inf)
+    ;title: *{hed.sum}
+    ;link: {(ref /)}
+    ;description: *{(no-meta tal.sum)}
+    ;*  %+  turn  ~(tap by kid)
+        |=  {nom/@t hed/marl tal/marl}
         ;item
-          ;link: {(relative-link /[fyl])}
-          ;title: {(trip title.a)}
-          ;author: {(trip author.a)}
-          ;description: {(trip preview.a)}
-          ;*  %-  drop
-              %+  bind  (slaw %da date.a)
-              |=  b/@da  ^-  manx
-              [/'pubDate' ;/((dust (yore b))) ~]
+          ;title: *{hed}
+          ;description: *{(no-meta tal)}
+          ;link: {(ref /[nom])}
         ==
   ==
 ==

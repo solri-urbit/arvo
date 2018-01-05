@@ -5,11 +5,13 @@
   ::
 ::::  compute
   ::
+=,  mimes:html
+=,  html
 |_  jon/json
 ::
 ++  grow                                                ::  convert to
   |%
-  ++  mime  [/text/json (tact (pojo jon))]              ::  convert to %mime
+  ++  mime  [/text/json (as-octt (en-json jon))]        ::  convert to %mime
   --
 ++  grab
   |%                                                    ::  convert from

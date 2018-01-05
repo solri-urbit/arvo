@@ -3,7 +3,7 @@
 ::::  /hoon/rend/down-jet/lib
   ::
 /?    310
-!:
+::
 |%
 ++  into-inner
   |=  {a/marl b/manx}
@@ -46,6 +46,7 @@
   $(a t.a)
 ::
 ++  sing                                                ::  elem to manx
+  =,  html
   =>  |%
       ++  first-word
         |=  a/tape
@@ -73,15 +74,15 @@
     ?.  ?=($html -.ele)
       (push (reso ele) ~)
     ::  begin reparsing of html that the spec jankily lets through  ::
-    =+  tex=(trip (role p.ele))
-    =^  mar  lum  (chomp tex (sear |=(a/marl ?~(a ~ (some a))) many:poxa))
+    =+  tex=(trip (of-wain p.ele))
+    =^  mar  lum  (chomp tex (sear |=(a/marl ?~(a ~ (some a))) many:de-xml))
     ?^  mar
       (push u.mar)
-    =^  hed  lum  (chomp tex head:poxa)
+    =^  hed  lum  (chomp tex head:de-xml)
     ?^  hed
       =+  max=`marx`u.hed
       (push(lum q) [max p] ~):[apex(had `n.max) .]
-    =^  tal  lum  (chomp tex tail:poxa)
+    =^  tal  lum  (chomp tex tail:de-xml)
     ?~  tal
       =^  cha  lum  (chomp tex prn)
       ?^  cha
@@ -102,7 +103,7 @@
     =+  vex=(fel 1^1 tap)
     ?~  q.vex  [~ lum]
     :-  [~ (wonk vex)]
-    ?~(q.q.u.q.vex lum [[%html (lore (crip q.q.u.q.vex))] lum])
+    ?~(q.q.u.q.vex lum [[%html (to-wain (crip q.q.u.q.vex))] lum])
   ::
   ++  push
     |=  a/marl
@@ -122,7 +123,7 @@
         $item  ;li;
         $list  ?@  q.p.a  ;ul;
                ?:  =(1 p.q.p.a)  ;ol;
-               =+  num=(pojo (jone p.q.p.a))
+               =+  num=(en-json (numb:enjs p.q.p.a))
                ;ol(start num);
       ==
     ?-  -.a  ::  ;/("unimplemented {<p.a>}")
@@ -135,18 +136,18 @@
       $hrul  ;hr;
       $meta  ?:  =(~ p.a)  ;/(~)
              =+  jon=`json`o+(~(run by p.a) |=(cord s++<))
-             ;meta(value "{(pojo jon)}", name "frontmatter", urb_front "");
+             ;meta(value "{(en-json jon)}", name "frontmatter", urb_front "");
   ::     %html  
-             ::=+  tex=(role (turn p.a crip))
-             ::=+  (poxa tex)
+             ::=+  tex=(of-wain (turn p.a crip))
+             ::=+  (de-xml tex)
              ::?^  -  u.-
-             ::=+  (rush tex (star ;~(pose gah comt:poxa)))
+             ::=+  (rush tex (star ;~(pose gah comt:de-xml)))
              ::?^  -  ;/(~)
              ::;lost: {<p.a>}
-        :: ;/([(role (turn p.a crip))]~)                ::  XX  haaaaaaack
+        :: ;/([(of-wain (turn p.a crip))]~)                ::  XX  haaaaaaack
       $defn  ;/(~)
       $code  =+  lan=?~(p.a ~ (first-word r.u.p.a))
-             =+  tex=(trip (role q.a))
+             =+  tex=(trip (of-wain q.a))
              ?~  lan  ;pre:code:"{tex}"
              ;pre:code(class "language-{u.lan}"):"{tex}"
 
@@ -173,15 +174,15 @@
         apex(p.i.lim (weld p.ele p.i.lim))  
       (push (reso ele) ~)
     =+  tex=(trip p.ele)
-    =^  emo  lim  (chomp tex empt:poxa)
+    =^  emo  lim  (chomp tex empt:de-xml)
     ?^  emo
       =+  man=`manx`u.emo
       (push man ~)
-    =^  hed  lim  (chomp tex head:poxa)
+    =^  hed  lim  (chomp tex head:de-xml)
     ?^  hed
       =+  max=`marx`u.hed
       (push(lim q) [max p] ~):[apex(had `n.max) .]
-    =^  tal  lim  (chomp tex tail:poxa)
+    =^  tal  lim  (chomp tex tail:de-xml)
     ?~  tal
       (push ;lost:"{tex}" ~)
     ?:  =(had tal)
@@ -213,7 +214,7 @@
             (~(has in (silt "#!*'();:@&=+$,/?/%.~_")) i.a) ::  XX  reparse
         ==
       [i.a $(a t.a)]
-    (weld (urle (trip i.a)) $(a t.a))
+    (weld (en-urlt:html (trip i.a)) $(a t.a))
   ::
   ++  reso
     |=  b/inline

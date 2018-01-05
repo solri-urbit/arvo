@@ -4,9 +4,11 @@
   ::
 /?    310
 /-  sole
-[sole]
+/+  old-zuse
+=,  old-zuse
+=,  sole
 :-  %get  |=  {^ {a/tape $~} $~}
 ^-  (sole-request (cask httr))
-%+  sole-at  (scan a auri:epur)
+%+  sole-at  (scan a auri:urlp)
 |=  hit/httr
 (sole-so %httr hit)

@@ -6,16 +6,16 @@
 |_  mud/@t
 ++  grow
   |%
-  ++  mime  [/text/x-markdown (taco mud)]
+  ++  mime  [/text/x-markdown (as-octs:mimes:html mud)]
   ++  txt
-    (lore mud)
+    (to-wain:format mud)
   --
 ++  grab
   |%
-  ++  mime  |=({p/mite q/octs} q.q)
+  ++  mime  |=({p/mite:eyre q/octs:eyre} q.q)
   ++  noun  @t
-  ++  txt   role
-  --
+  ++  txt   of-wain:format
+  --  
 ++  grad  %txt
 ++  garb  /down
 --

@@ -3,10 +3,12 @@
   ::
 /?    310
 /-    kyev, sole
-!:
+/+    old-zuse
+::
 ::::
   ::
-[sole .]
+=,  sole
+=,  old-zuse
 |_  dill-belt
 ::
 ++  grab                                                ::  convert from

@@ -3,9 +3,11 @@
 ::::  /hoon/serve/hood/gen
   ::
 /?    310
+/+  old-zuse
+=,  old-zuse
 ::
 ::::
-  !:
+  ::
 :-  %say
 |=  $:  {now/@da eny/@uvJ bec/beak}
         {{pax/$@(term {i/knot t/path}) $~} $~}

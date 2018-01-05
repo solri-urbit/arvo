@@ -2,10 +2,10 @@
 ::::  /hoon/will/mar
   ::
 /?    310
-|_  wyl/(unit will)
+|_  wyl/(unit wyll:ames)
 ::
 ++  grab                                                ::  convert from
   |%
-  ++  noun  (unit will)                                 ::  clam from %noun
+  ++  noun  (unit wyll:ames)                            ::  clam from %noun
   --
 --

@@ -2,20 +2,24 @@
 ::::  /hoon/txt/mar
   ::
 /?    310
-!:
-|_  txt/wain
 ::
+=,  clay
+=,  differ
+=,  format
+=,  mimes:html
+|_  txt/wain
+::  
 ++  grab                                                ::  convert from
   |%
-  ++  mime  |=({p/mite q/octs} (lore q.q))
+  ++  mime  |=({p/mite:eyre q/octs:eyre} (to-wain q.q))
   ++  noun  wain                                        ::  clam from %noun
-  ++  json  :(corl lore need so:jo)
+  ++  json  (corl to-wain so:dejs:format)
   --
 ++  grow
   =>  v=.
   |%
-  ++  mime  =>  v  [/text/plain (taco (role txt))]
-  ++  elem  =>  v  ;pre: {(trip (role txt))}
+  ++  mime  =>  v  [/text/plain (as-octs (of-wain txt))]
+  ++  elem  =>  v  ;pre: {(trip (of-wain txt))}
   --
 ++  grad
   |%

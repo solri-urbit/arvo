@@ -17,7 +17,9 @@
 /-  gh, plan-acct
 /+  gh-parse, connector
 ::
-!:
+::
+=,  html
+=,  eyre
 =>  |%
     ++  move  (pair bone card)
     ++  card  
@@ -47,6 +49,7 @@
     --
 =+  connector=(connector move sub-result)  ::  Set up connector library
 ::
+=,  gall
 |_  $:  hid/bowl
         hook/(map @t {id/@t listeners/(set bone)})  ::  map events to listeners
     ==
@@ -173,7 +176,7 @@
 ++  peer-scry
   |=  pax/path
   ^-  {(list move) _+>.$}
-  ?>  ?=({care *} pax)
+  ?>  ?=({care:clay *} pax)
   :_  +>.$  :_  ~
   (read:connector ost.hid (places %read pax) i.pax t.pax)
 ::
@@ -183,7 +186,7 @@
 ++  sigh-httr
   |=  {way/wire res/httr}
   ^-  {(list move) _+>.$}
-  ?.  ?=({$read care @ *} way)
+  ?.  ?=({$read care:clay @ *} way)
     ~&  res=res
     [~ +>.$]
   =*  style  i.way
@@ -276,14 +279,14 @@
     :*  %+  scan
           =+  [(trip i.pax) (trip i.t.pax)]
           "https://api.github.com/repos/{-<}/{->}/hooks"
-        auri:epur
+        auri:de-purl
         %post  ~  ~
-        %-  taco  %-  crip  %-  pojo  %-  jobe  :~
+        %-  as-octt:mimes  %-  en-json  %-  pairs:enjs:format  :~
           name+s+%web
           active+b+&
           events+a+~[s+event] ::(turn `(list ,@t)`t.t.pax |=(a=@t s/a))
           :-  %config
-          %-  jobe  :~
+          %-  pairs:enjs:format  :~
             =+  =+  clean-event
                 "http://107.170.195.5:8443/~/to/gh/gh-{-}.json?anon&wire=/"
             [%url s+(crip -)]
@@ -320,7 +323,7 @@
     [~ +>.$]
   ::  ~&  response=response
   :_  +>.$
-  %+  turn  (~(tap in listeners.u.hook-data))
+  %+  turn  ~(tap in listeners.u.hook-data)
   |=  ost/bone
   [ost %diff response]
 --

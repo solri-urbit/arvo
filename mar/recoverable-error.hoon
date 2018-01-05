@@ -3,9 +3,12 @@
 ::::  /hoon/recoverable-error/mar
   ::
 /-    recoverable-error
-!:
+::
 ::::  ~fyr
   ::
+=,  eyre
+=,  format
+=,  html
 |_   recoverable-error
 ++  grab
   |%
@@ -15,7 +18,12 @@
     ~!  a
     ?+  p.a  ~|(non-recoverable+p.a !!)
       $429  :+  p.a  %rate-limit
-            %.(%x-rate-limit-reset ;~(biff ~(get by (malt q.a)) poja ni:jo))
+            %.  %x-rate-limit-reset
+            ;~  biff
+              ~(get by (malt q.a))
+              de-json
+              ni:dejs-soft
+            ==
     ==
   --
 ++  grow  |%  ++  tank  >[+<]<  --

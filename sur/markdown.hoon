@@ -13,7 +13,7 @@
           {$blot p/tape q/(unit tape)}                  ::  image
       ==
   =+  ^=  inlin
-      $%  {$$ p/tape}                                    
+      $%  {$$ p/tape}
           {$line $~}
           {$code p/tape}
           {$htmt p/cord}                                ::  XX  (each marx mane)
@@ -40,4 +40,3 @@
       {$defn $~}                                        ::  empty para
   ==
 --
-

@@ -3,10 +3,10 @@
 ::::  /hoon/twitter/com/sec
   ::
 /+    oauth1
-!:
+::
 ::::
   ::
-|_  {bal/(bale keys:oauth1) tok/token:oauth1}
+|_  {bal/(bale:eyre keys:oauth1) tok/token:oauth1}
 ::  ++aut is a "standard oauth1" core, which implements the
 ::  most common handling of oauth1 semantics. see lib/oauth1 for more details,
 ::  and examples at the bottom of the file.

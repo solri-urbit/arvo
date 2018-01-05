@@ -2,7 +2,7 @@
 ::::  /hoon/tree/lib
   ::
 /?    314
-!:
+::
 |%
 ++  getall                                              :: search in manx
   |=  tag/(list mane)
@@ -32,4 +32,3 @@
     acc(pending $(acc pending.acc))
   --
 --
-

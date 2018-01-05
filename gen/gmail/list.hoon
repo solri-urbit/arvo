@@ -5,9 +5,9 @@
 /?    310
 ::
 ::::
-  !:
+  ::
 :-  %say
-|=  $:  {now/@da eny/@uvJ bec/beak}  
+|=  $:  {now/@da eny/@uvJ bec/beak}
         arg/$@($~ {number/@u $~})
         $~
     ==

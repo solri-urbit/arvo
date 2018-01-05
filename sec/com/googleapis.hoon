@@ -16,7 +16,7 @@
   ==
 ::
 ++  auth-usr
-  |=  usr/iden
+  |=  usr/user:eyre
   =+  lon=(fall (slaw %t usr) usr)
   %+  add-query:interpolate  'https://accounts.google.com/o/oauth2/v2/auth'
   %-  quay:hep-to-cab
@@ -33,10 +33,10 @@
 ::
 ++  exchange-url  'https://www.googleapis.com/oauth2/v4/token'
 --
-!:
+::
 ::::
   ::
-|_  {bal/(bale keys:oauth2) own/user-state}
+|_  {bal/(bale:eyre keys:oauth2) own/user-state}
 ::  ++auth is a "standard refreshing oauth2" core, which implements the
 ::  most common handling of oauth2 semantics. see lib/oauth2 for more details,
 ::  and examples at the bottom of the file.

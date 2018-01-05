@@ -3,12 +3,15 @@
   ::
 /?    310
 /=  urb-wasp-data-js    /:    /%/wasp-data    /js/
-!:
+=,  format
+=,  mimes:html
+=,  html
+::
 |_  {{dep/@uvH hed/marl} {dep-bod/@uvH bod/marl}}
 ++  grow                                                ::  convert to
   |%
-  ++  mime  [/text/html (taco html)]                    ::  convert to %mime
-  ++  html  (crip (poxo hymn))                          ::  convert to %html
+  ++  mime  [/text/html (as-octs html)]                 ::  convert to %mime
+  ++  html  (crip (en-xml hymn))                        ::  convert to %html
   ++  hymn                                              ::  inject dependencies
     ^-  manx
     ;html
@@ -27,7 +30,7 @@
                   ;  urb.onDep = function()\{
                   ;    urb.waspWait.map(urb.wasp)
                   ;    urb.onLoadUrbJS()
-                  ;    urb.waspData({(pojo %s (scot %uv dep-bod))})
+                  ;    urb.waspData({(en-json %s (scot %uv dep-bod))})
                   ;  }
                 ==
             ==
